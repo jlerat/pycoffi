@@ -1,15 +1,14 @@
 [build-system]
 requires = [
     "setuptools >= 64",
-    "cython >= 3.0.10",
     "numpy >= 1.20.0"
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mypackage"
+name = "pycoffi"
 authors = [{name = "Julien Lerat, CSIRO Environment", email="julien.lerat@csiro.au"}]
-description = "Tool supporting the workflows"
+description = "Scripts and data supporting the CoFFI paper"
 readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["data processing", "rainfall", "streamflow", "rainfall-runoff", "hydrology"]
@@ -27,17 +26,3 @@ dependencies = [
     "scipy >= 1.0.0",
     "pandas >= 2.0.0"
 ]
-dynamic = ["version"]
-
-#[project.urls]
-#Homepage = "https://github.com/csiro-hydroinformatics/hydrodiy"
-#Repository = "https://github.com/csiro-hydroinformatics/hydrodiy"
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools.dynamic]
-version = {attr = "mypackage.__version__"}
