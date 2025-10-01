@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: pycoffi
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Julien
+    family-names: Lerat
+    email: julien.lerat@csiro.au
+    affiliation: CSIRO
+    orcid: 'https://orcid.org/0000-0003-4521-8874'
+repository-code: 'https://github.com/jlerat/pycoffi'
+url: 'https://github.com/jlerat/pycoffi'
+abstract: >-
+  This package provides the code and data supporting
+  the CoFFI paper.
+keywords:
+  - Hydrology
+  - Statistics
+  - Flood Frequency Analysis
+  - Bayesian Inference
+license: MIT
+references:
+  - type: article
+    title: >-
+      Flood frequency analysis combining observed streamflows with 
+      simulations from a continental hydrological model
+    authors:
+      - family-names: Lerat
+        given-names: Julien
+        orcid: https://orcid.org/0000-0003-4521-8874
+      - family-names: Vaze
+        given-names: Jai
+      - family-names: Wang
+        given-names: Quan J
+        orcid: https://orcid.org/0000-0002-8787-2738
+    year: 2025
+    journal: Journal of Hydrology (submitted)
