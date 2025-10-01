@@ -1,0 +1,22 @@
+# --------------------------------------------------
+# nrow : 6
+# ncol : 7
+# comment : Posterior predictive check {key} for station 138001.
+# time_generated : 2025-10-01 14:50:49
+# author : ler015
+# source_file : C:\Users\ler015\Code\covariate_paper\scripts\manuscript\M010_FIGB_posterior_predictive_checks.py
+# work_dir : C:\Users\ler015\Code\pycoffi
+# python_environment nt
+# python_version : 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:29:51) [MSC v.1929 64 bit (AMD64)]
+# pandas_version : 2.2.1
+# numpy_version : 1.26.4
+# python_inc : C:\Users\ler015\Anaconda3\envs\env_nriv_v8\include
+# python_lib : C:\Users\ler015\Anaconda3\envs\env_nriv_v8\Lib\site-packages
+# --------------------------------------------------
+,obs,simmean,pvalue,pvaluediscr,simdiff,simstd,zscore
+kendalltau,0.84258,0.85051,0.66023,0.66023,0.00793,0.02223,0.35688
+kendalltauhigh,0.80082,0.78626,0.38186,0.37919,-0.01455,0.03911,-0.37219
+tailcoeff_q50,50.00000,50.81970,0.84532,0.79838,0.81970,1.31688,0.62246
+tailcoeff_q75,26.00000,25.29890,0.43826,0.16869,-0.70110,1.05008,-0.66766
+tailcoeff_q90,10.00000,9.82890,0.70313,0.34675,-0.17110,0.72324,-0.23657
+tailcoeff_q95,5.00000,5.38020,0.95070,0.89712,0.38020,0.57973,0.65583
