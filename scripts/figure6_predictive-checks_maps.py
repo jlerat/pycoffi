@@ -25,8 +25,6 @@ from hydrodiy.io import csv, iutils, hyruns
 from hydrodiy.plot import putils
 from hydrodiy.gis import oz
 
-import path_utils
-
 # ----------------------------------------------------------------------
 # @Config
 # ----------------------------------------------------------------------

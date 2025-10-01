@@ -29,8 +29,6 @@ from matplotlib import ticker
 from hydrodiy.io import csv, iutils, hyruns
 from hydrodiy.plot import putils
 
-import path_utils
-
 # ----------------------------------------------------------------------
 # @Config
 # ----------------------------------------------------------------------
