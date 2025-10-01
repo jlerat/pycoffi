@@ -25,8 +25,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 import matplotlib.patheffects as pe
 
-from netCDF4 import Dataset
-
 from hydrodiy.io import csv, iutils
 from hydrodiy.io import hyruns
 from hydrodiy.plot import putils
