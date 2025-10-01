@@ -31,12 +31,12 @@ jobs:
       - name: Create conda environment 
         run: |
            source $CONDA/etc/profile.d/conda.sh
-           conda env create -f env_floodstan.yml
+           conda env create -f env_pycoffi.yml
 
       - name : Install hydrodiy package in conda env 
         run: |
           source $CONDA/etc/profile.d/conda.sh
-          conda activate env_floodstan
+          conda activate env_pycoffi
           echo "Conda env: "
           conda info --envs | grep '*' | sed 's/.*\* //g'
 
@@ -57,7 +57,7 @@ jobs:
       - name : Install floodstan package in conda env 
         run: |
           source $CONDA/etc/profile.d/conda.sh
-          conda activate env_floodstan
+          conda activate env_pycoffi
           echo "Conda env: "
           conda info --envs | grep '*' | sed 's/.*\* //g'
 
@@ -77,7 +77,7 @@ jobs:
       - name: Run scripts
         run: |
           source $CONDA/etc/profile.d/conda.sh
-          conda activate env_floodstan
+          conda activate env_pycoffi
           cd $GITHUB_WORKSPACE
           for file in scripts/*.py; do
              echo Running $file
