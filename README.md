@@ -1,4 +1,6 @@
 # pycoffi
+ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17247296.svg)](https://doi.org/10.5281/zenodo.17247296) 
+ [![Build pycoffi](https://github.com/jlerat/pycoffi/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/jlerat/pycoffi/actions/workflows/python-package-conda.yml) 
 
 This package contains data and script supporting the CoFFI paper.
 
